@@ -34,6 +34,7 @@ while True:
                 umduration = getduration + created
                 eduration = umduration/1000
                 duration = round(eduration)
+                people = r['participants']
                 convert = (getduration/(1000*60))%60
                 waiting = (convert*60+10)
                 sent = time.strftime("%d/%m/%Y %H:%M:%S", time.localtime(int(time.time())))
@@ -44,6 +45,7 @@ while True:
                     embed = DiscordEmbed(title=f"{host} is hosting a chat rain!", url="https://bloxflip.com", color=0xFFC800)
                     embed.add_embed_field(name="Rain Amount", value=f"{prize} R$")
                     embed.add_embed_field(name="Expiration", value=f"<t:{duration}:R>")
+                    embed.add_embed_field(name="Robux Per Person", value=f"{prize}/people")
                     embed.add_embed_field(name="Host", value=f"[{host}](https://www.roblox.com/users/{userid}/profile)")
                     embed.set_timestamp()
                     embed.set_thumbnail(url=thumburl)
