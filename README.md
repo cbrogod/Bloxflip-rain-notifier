@@ -6,7 +6,7 @@
 
 ## Information:
 - When there is a rain at [bloxflip](https://bloxflip.com) this program will notify you about the rain with some information about it
-- This is ORIGINAL! It is not skidded, leaked, cracked, dumped e.t.c. (kinda sad i have to say this 😂)
+- This is not the original credits to https://github.com/amprocode/Bloxflip-rain-notifier
 - If you want to use it check license so you know your limits
 - Virustotal for exe: https://www.virustotal.com/gui/file/95d94c0215df3d329533d5a27dd69f20499521a9b85838c3697301b1b8d90a55
 - If you dont trust it, its literally open source
